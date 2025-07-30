@@ -12,12 +12,12 @@ logger = logging.getLogger(__name__)
 
 # --- Load Environment Variables (Secrets) ---
 # Vercel will provide these to your deployment
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
-WEBHOOK_URL = os.environ.get("WEBHOOK_URL") # Your Vercel app URL
-RAZORPAY_KEY_ID = os.environ.get("RAZORPAY_KEY_ID")
-RAZORPAY_KEY_SECRET = os.environ.get("RAZORPAY_KEY_SECRET")
-RAZORPAY_WEBHOOK_SECRET = os.environ.get("RAZORPAY_WEBHOOK_SECRET")
-MINI_APP_URL = os.environ.get("MINI_APP_URL") # The URL to your Mini App
+BOT_TOKEN = os.environ.get("8275448121:AAFylD2oQappNMi8cVHrmaPH4x0iU3jVwpg")
+WEBHOOK_URL = os.environ.get("https://telegram-payment-bot-cl7x.vercel.app/") # Your Vercel app URL
+RAZORPAY_KEY_ID = os.environ.get("rzp_test_KT9OOXMCt34lJX")
+RAZORPAY_KEY_SECRET = os.environ.get("Dreamydesk8660")
+RAZORPAY_WEBHOOK_SECRET = os.environ.get("DDreamydesk8660")
+MINI_APP_URL = os.environ.get("https://image-right.vercel.app/") # The URL to your Mini App
 
 # --- Initialize Razorpay Client ---
 razorpay_client = razorpay.Client(auth=(RAZORPAY_KEY_ID, RAZORPAY_KEY_SECRET))
