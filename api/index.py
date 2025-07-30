@@ -20,10 +20,10 @@ from telegram.ext import (
 )
 
 # --- Configuration ---
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
-WEBHOOK_URL = os.environ.get("WEBHOOK_URL")
+BOT_TOKEN = os.environ.get("8275448121:AAFylD2oQappNMi8cVHrmaPH4x0iU3jVwpg")
+WEBHOOK_URL = os.environ.get("https://image-right.vercel.app/")
 # Define the price in Telegram Stars
-SUBSCRIPTION_PRICE_STARS = 100 # Change this to your desired price in stars
+SUBSCRIPTION_PRICE_STARS = 400 # Change this to your desired price in stars
 SUBSCRIPTION_DAYS = 30
 
 # --- Logging Setup ---
