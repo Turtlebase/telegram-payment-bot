@@ -1,4 +1,4 @@
-python-telegram-bot[ext]
-flask
-razorpay
-setuptools
+python-telegram-bot[ext]==21.1.1
+Flask==3.0.3
+razorpay==1.4.3
+setuptools==69.5.1
